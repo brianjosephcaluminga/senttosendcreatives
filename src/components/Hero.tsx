@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowDown, Play } from "lucide-react";
-import heroImage from "@/assets/hero-workspace.jpg";
+import heroImage from "@/assets/hero-creative-workspace.jpg";
 
 const Hero = () => {
   const scrollToSection = (id: string) => {
@@ -29,16 +29,16 @@ const Hero = () => {
           </div>
 
           {/* Main Heading */}
-          <h1 className="text-5xl md:text-7xl font-raleway font-bold leading-tight">
-            <span className="block">I Bring Your</span>
+          <h1 className="text-5xl md:text-7xl font-raleway font-bold leading-tight text-foreground">
+            <span className="block">SentToSend Creatives</span>
             <span className="block bg-gradient-to-r from-accent to-creative bg-clip-text text-transparent">
-              Vision to Life
+              Content that Connects. Visuals that Inspire.
             </span>
           </h1>
 
           {/* Description */}
-          <p className="text-xl md:text-2xl text-gray-200 max-w-2xl mx-auto leading-relaxed">
-            Freelance graphic designer and video editor crafting compelling visuals that tell your story and captivate your audience.
+          <p className="text-xl md:text-2xl text-foreground max-w-2xl mx-auto leading-relaxed">
+            Helping brands communicate clearly through creative visuals, meaningful content, and thoughtful strategy.
           </p>
 
           {/* CTA Buttons */}

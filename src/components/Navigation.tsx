@@ -19,7 +19,6 @@ const Navigation = () => {
     { href: '#about', label: 'About' },
     { href: '#services', label: 'Services' },
     { href: '#portfolio', label: 'Portfolio' },
-    { href: '#videos', label: 'Videos' },
     { href: '#contact', label: 'Contact' }
   ];
 
@@ -40,7 +39,7 @@ const Navigation = () => {
             <div className="p-2 bg-gradient-accent rounded-xl">
               <Palette className="w-6 h-6 text-white" />
             </div>
-            <span className="text-xl font-bold text-primary">DesignPro</span>
+            <span className="text-xl font-bold text-primary">SentToSend Creatives</span>
           </div>
 
           {/* Desktop Navigation */}
