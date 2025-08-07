@@ -29,7 +29,7 @@ const Hero = () => {
           </div>
 
           {/* Main Heading */}
-          <h1 className="text-5xl md:text-7xl font-bold leading-tight">
+          <h1 className="text-5xl md:text-7xl font-raleway font-bold leading-tight">
             <span className="block">I Bring Your</span>
             <span className="block bg-gradient-to-r from-accent to-creative bg-clip-text text-transparent">
               Vision to Life

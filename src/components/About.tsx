@@ -25,7 +25,7 @@ const About = () => {
             <Badge variant="outline" className="mb-4 text-accent border-accent">
               About Me
             </Badge>
-            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-primary">
+            <h2 className="text-4xl md:text-5xl font-raleway font-bold mb-6 text-primary">
               Passionate About Visual Storytelling
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
@@ -52,7 +52,7 @@ const About = () => {
 
               {/* Skills */}
               <div>
-                <h3 className="text-xl font-semibold mb-4 text-primary">Skills & Tools</h3>
+                <h3 className="text-xl font-raleway font-semibold mb-4 text-primary">Skills & Tools</h3>
                 <div className="flex flex-wrap gap-2">
                   {skills.map((skill) => (
                     <Badge key={skill} variant="secondary" className="text-sm">

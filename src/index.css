@@ -8,7 +8,8 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 98%;
+    /* Custom color scheme - #F5F2FA light background, #5B197E headline accents, #3A7BFF buttons */
+    --background: 273 26% 97%; /* #F5F2FA */
     --foreground: 220 15% 15%;
 
     --card: 0 0% 100%;
@@ -17,19 +18,19 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 220 15% 15%;
 
-    --primary: 220 25% 12%;
+    --primary: 273 75% 29%; /* #5B197E - headline accents */
     --primary-foreground: 0 0% 98%;
 
-    --secondary: 220 8% 92%;
-    --secondary-foreground: 220 15% 25%;
+    --secondary: 272 31% 88%; /* #E6D9F5 - soft lavender sections */
+    --secondary-foreground: 273 75% 29%;
 
-    --muted: 220 8% 95%;
+    --muted: 273 26% 95%;
     --muted-foreground: 220 8% 45%;
 
-    --accent: 270 100% 65%;
+    --accent: 217 100% 62%; /* #3A7BFF - button color */
     --accent-foreground: 0 0% 98%;
 
-    --creative: 280 90% 60%;
+    --creative: 273 75% 29%; /* Using primary for creative accents */
     --creative-foreground: 0 0% 98%;
 
     --destructive: 0 84.2% 60.2%;
@@ -42,9 +43,9 @@ All colors MUST be HSL.
     --radius: 0.75rem;
 
     /* Creative gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(220 15% 20%));
-    --gradient-accent: linear-gradient(135deg, hsl(var(--accent)), hsl(var(--creative)));
-    --gradient-subtle: linear-gradient(180deg, hsl(var(--background)), hsl(220 8% 95%));
+    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(273 85% 35%));
+    --gradient-accent: linear-gradient(135deg, hsl(var(--accent)), hsl(var(--primary)));
+    --gradient-subtle: linear-gradient(180deg, hsl(var(--background)), hsl(var(--secondary)));
 
     /* Shadows */
     --shadow-elegant: 0 20px 50px -10px hsl(var(--primary) / 0.15);
