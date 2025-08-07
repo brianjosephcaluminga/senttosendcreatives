@@ -10,7 +10,7 @@ All colors MUST be HSL.
   :root {
     /* Custom color scheme - #F5F2FA light background, #5B197E headline accents, #3A7BFF buttons */
     --background: 273 26% 97%; /* #F5F2FA */
-    --foreground: 220 15% 15%;
+    --foreground: 0 0% 16%; /* #2A2A2A - dark gray for readability */
 
     --card: 0 0% 100%;
     --card-foreground: 220 15% 15%;

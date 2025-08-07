@@ -26,11 +26,10 @@ const About = () => {
               About Me
             </Badge>
             <h2 className="text-4xl md:text-5xl font-raleway font-bold mb-6 text-primary">
-              Passionate About Visual Storytelling
+              Hi, I'm Brian Joseph Caluminga
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              With over 5 years of experience in graphic design and video editing, I help brands and individuals 
-              create stunning visuals that capture attention and drive engagement.
+              Digital Creative Specialist combining design, storytelling, and strategy to produce compelling brand content.
             </p>
           </div>
 
@@ -39,14 +38,20 @@ const About = () => {
             <div className="space-y-8 reveal">
               <div className="prose prose-lg max-w-none">
                 <p className="text-foreground leading-relaxed">
-                  My journey began with a simple love for creating beautiful things. What started as a hobby 
-                  quickly evolved into a passion for helping businesses and creators tell their stories through 
-                  compelling visual design.
+                  I am a Digital Creative Specialist who combines design, storytelling, and strategy to produce compelling brand content. My expertise includes visual design—such as social media graphics, email layouts, book covers, and thumbnails—as well as both long-form and short-form video editing. I also focus on content planning for digital platforms like YouTube, Instagram, and TikTok.
                 </p>
                 <p className="text-foreground leading-relaxed">
-                  I specialize in creating cohesive brand experiences across digital platforms, from eye-catching 
-                  social media graphics to professional book covers and engaging video content that resonates 
-                  with your target audience.
+                  My work emphasizes the creation of high-converting, engaging visuals that are anchored by a strong design sense and brand consistency. With growing experience in social media management and digital marketing, I understand how to deliver content that is not only visually appealing but also performs effectively.
+                </p>
+                <p className="text-foreground leading-relaxed">
+                  I utilize tools like Premiere Pro, After Effects, CapCut, Descript, Photoshop, Figma, and Canva, alongside platforms like ChatGPT and Grammarly, to execute ideas from concept to final publication. I believe in using creativity as a tool to connect, communicate, and inspire.
+                </p>
+              </div>
+
+              {/* Faith Quote */}
+              <div className="bg-secondary/50 p-6 rounded-xl border-l-4 border-accent">
+                <p className="text-foreground italic text-center">
+                  "I seek not my own will but the will of Him who sent me." — John 5:30
                 </p>
               </div>
 

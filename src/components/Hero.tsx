@@ -48,7 +48,7 @@ const Hero = () => {
               className="btn-hero text-lg px-8 py-6"
               onClick={() => scrollToSection('portfolio')}
             >
-              View My Work
+              View Portfolio
             </Button>
             <Button 
               size="lg" 
@@ -56,7 +56,7 @@ const Hero = () => {
               className="btn-outline-glow text-lg px-8 py-6"
               onClick={() => scrollToSection('contact')}
             >
-              Let's Collaborate
+              Let's Connect
             </Button>
           </div>
 
