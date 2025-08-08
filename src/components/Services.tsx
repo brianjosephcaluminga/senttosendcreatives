@@ -6,32 +6,39 @@ import { Instagram, BookOpen, Mail, Video, ArrowRight } from "lucide-react";
 const Services = () => {
   const services = [
     {
+      icon: Video,
+      title: "Video Editing & Motion Graphics",
+      description: "Professional video editing for YouTube, social media, and promotional content with engaging storytelling and motion graphics.",
+      features: ["YouTube Long-form", "Short-form Content", "Motion Graphics", "Color Grading", "Audio Enhancement"],
+      gradient: "from-orange-500 to-red-500"
+    },
+    {
       icon: Instagram,
       title: "Social Media Graphics",
       description: "Eye-catching posts, stories, and carousel designs that boost engagement and brand awareness across all platforms.",
-      features: ["Instagram Posts & Stories", "Facebook Covers", "Twitter Headers", "LinkedIn Banners", "Pinterest Pins"],
+      features: ["Instagram Posts & Stories", "Facebook Graphics", "LinkedIn Banners", "Pinterest Pins", "Platform Optimization"],
       gradient: "from-pink-500 to-violet-500"
     },
     {
       icon: BookOpen,
       title: "Book Cover Design",
-      description: "Professional book covers that capture your story's essence and stand out in the marketplace.",
-      features: ["Fiction & Non-fiction", "E-book Covers", "Print Ready Files", "Multiple Formats", "Revision Rounds"],
+      description: "Professional book covers and educational course covers that capture your story's essence and stand out in the marketplace.",
+      features: ["Fiction & Non-fiction", "Course Covers", "E-book Design", "Print Ready Files", "Multiple Formats"],
       gradient: "from-blue-500 to-cyan-500"
     },
     {
       icon: Mail,
-      title: "Email Templates",
-      description: "Custom email designs that drive conversions and keep your audience engaged with your brand.",
-      features: ["Newsletter Design", "Promotional Emails", "Welcome Series", "HTML Coding", "Mobile Responsive"],
+      title: "Email Templates & Layouts",
+      description: "Custom email designs and layout templates that drive conversions and keep your audience engaged with your brand.",
+      features: ["Newsletter Design", "Promotional Emails", "Welcome Series", "Responsive Design", "Brand Consistency"],
       gradient: "from-green-500 to-emerald-500"
     },
     {
-      icon: Video,
-      title: "Video Editing",
-      description: "Professional video editing services that bring your content to life with engaging storytelling.",
-      features: ["YouTube Videos", "Social Media Clips", "Promotional Videos", "Motion Graphics", "Color Grading"],
-      gradient: "from-orange-500 to-red-500"
+      icon: Instagram,
+      title: "Social Media Management",
+      description: "Complete social media strategy and management including content planning, scheduling, and platform optimization.",
+      features: ["Content Planning", "Platform Strategy", "Analytics & Insights", "Brand Voice Development", "Engagement Growth"],
+      gradient: "from-purple-500 to-blue-500"
     }
   ];
 

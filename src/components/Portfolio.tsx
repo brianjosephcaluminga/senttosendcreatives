@@ -15,60 +15,83 @@ const Portfolio = () => {
   const projects = [
     {
       id: 1,
-      title: "Social Media Campaign",
-      category: "social",
+      title: "YouTube Channel Branding",
+      category: "videos",
       image: portfolioSocial,
-      description: "Complete social media package for tech startup including posts, stories, and carousel designs.",
-      tags: ["Instagram", "Facebook", "Brand Design"]
+      description: "Complete YouTube channel package including intro animations, thumbnails, and video editing for tech content creator.",
+      tags: ["Video Editing", "Motion Graphics", "Thumbnails"]
     },
     {
       id: 2,
+      title: "Social Media Campaign",
+      category: "social",
+      image: portfolioSocial,
+      description: "Complete social media strategy and content for lifestyle brand including posts, stories, and carousel designs.",
+      tags: ["Instagram", "Content Strategy", "Brand Design"]
+    },
+    {
+      id: 3,
+      title: "Short-form Video Content",
+      category: "videos",
+      image: portfolioPosters,
+      description: "Engaging short-form videos for TikTok and Instagram Reels with dynamic transitions and effects.",
+      tags: ["Short-form", "TikTok", "Instagram Reels"]
+    },
+    {
+      id: 4,
       title: "Book Cover Collection",
-      category: "books",
+      category: "designs",
       image: portfolioBooks,
       description: "Fantasy and romance book covers with compelling typography and mystical illustrations.",
       tags: ["Book Design", "Typography", "Illustration"]
     },
     {
-      id: 3,
+      id: 5,
       title: "Email Newsletter Series",
-      category: "email",
+      category: "designs",
       image: portfolioEmails,
-      description: "Responsive email templates for e-commerce brand with high conversion rates.",
+      description: "Responsive email templates for e-commerce brand with high conversion rates and brand consistency.",
       tags: ["Email Design", "HTML", "Conversion"]
     },
     {
-      id: 4,
-      title: "Event Poster Designs",
-      category: "print",
-      image: portfolioPosters,
-      description: "Creative posters for music events and corporate conferences with bold visual impact.",
-      tags: ["Poster Design", "Event Graphics", "Print"]
-    },
-    {
-      id: 5,
+      id: 6,
       title: "Brand Identity Package",
       category: "social",
       image: portfolioSocial,
-      description: "Complete brand identity with social media templates and style guide.",
-      tags: ["Branding", "Social Media", "Style Guide"]
+      description: "Complete brand identity with social media templates, style guide, and content strategy.",
+      tags: ["Branding", "Social Media Management", "Style Guide"]
     },
     {
-      id: 6,
-      title: "Educational Course Covers",
-      category: "books",
+      id: 7,
+      title: "Promotional Video Campaign",
+      category: "videos",
+      image: portfolioPosters,
+      description: "High-converting promotional videos for product launches with motion graphics and compelling storytelling.",
+      tags: ["Promotional Video", "Motion Graphics", "Product Launch"]
+    },
+    {
+      id: 8,
+      title: "Course Cover Designs",
+      category: "designs",
       image: portfolioBooks,
-      description: "Professional course cover designs for online learning platform.",
-      tags: ["Course Design", "Education", "Digital"]
+      description: "Professional course cover designs for online learning platform with modern typography and visual hierarchy.",
+      tags: ["Course Design", "Education", "Typography"]
+    },
+    {
+      id: 9,
+      title: "Instagram Growth Strategy",
+      category: "social",
+      image: portfolioSocial,
+      description: "Complete Instagram management including content planning, hashtag strategy, and engagement optimization.",
+      tags: ["Instagram Growth", "Content Planning", "Analytics"]
     }
   ];
 
   const categories = [
     { id: "all", label: "All Work" },
-    { id: "social", label: "Social Media" },
-    { id: "books", label: "Book Covers" },
-    { id: "email", label: "Email Design" },
-    { id: "print", label: "Print Design" }
+    { id: "videos", label: "Videos" },
+    { id: "designs", label: "Designs" },
+    { id: "social", label: "Social Media" }
   ];
 
   const filteredProjects = filter === "all" 

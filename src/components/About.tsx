@@ -4,9 +4,9 @@ import { Palette, Video, Star, Users } from "lucide-react";
 
 const About = () => {
   const skills = [
-    "Adobe Creative Suite", "Figma", "Canva", "After Effects", 
-    "Premiere Pro", "DaVinci Resolve", "Typography", "Brand Identity",
-    "Motion Graphics", "Social Media Design"
+    "Premiere Pro", "After Effects", "CapCut", "Descript", 
+    "Photoshop", "Figma", "Canva", "ChatGPT", "Grammarly",
+    "Typography", "Brand Identity", "Motion Graphics", "Social Media Management"
   ];
 
   const stats = [
